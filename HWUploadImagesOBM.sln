@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWUploadImagesOBM", "HWUploadImagesOBM\HWUploadImagesOBM.csproj", "{7061AB30-BD04-4046-9333-DFD81777EBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWUploadImages.Data", "HWUploadImages.Data\HWUploadImages.Data.csproj", "{2BED6301-1B63-49A6-817A-E32781F6D122}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7061AB30-BD04-4046-9333-DFD81777EBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7061AB30-BD04-4046-9333-DFD81777EBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7061AB30-BD04-4046-9333-DFD81777EBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7061AB30-BD04-4046-9333-DFD81777EBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BED6301-1B63-49A6-817A-E32781F6D122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BED6301-1B63-49A6-817A-E32781F6D122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BED6301-1B63-49A6-817A-E32781F6D122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BED6301-1B63-49A6-817A-E32781F6D122}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {492F2F1C-4CB3-471E-99A2-0DBFECC5EB3F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿@using HWUploadImages.Data
+@model IEnumerable<Image>
+
+<div class="container" style="margin-top:60px;">
+    @foreach (var image in Model)
+    {
+            <a href="/home/viewsingle?Id=@image.Id">
+                <h3>@image.Title</h3>
+                    <img src="/UploadedImages/@image.FileName" style="width: 300px;" />      
+            </a>
+    }
+    <br />
+    <br />
+    <a class="btn btn-success btn-block"href="/home/UploadImage">Upload an Image</a>
+</div>

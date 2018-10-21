@@ -1,0 +1,17 @@
+﻿@using HWUploadImages.Data;
+@model Image
+<div class="container" style="margin-top:40px;">
+    <h1 style="font-family:Gazzarelli; font-size:32PX;"> @Model.Title </h1>
+    <img src="/UploadedImages/@Model.FileName" style="width: 800px;" />
+    <br />
+    <a class="btn btn-block" style="background-color:darkslateblue;">
+        <h6 style="font-family:Gazzarelli; font-size:32PX;">
+            <input type="text" value="@Model.Likes" id="likes" class="btn" style="background-color:gray;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"/> people Like this image
+            <input type="hidden" value="@Model.Id" id="im-id" />
+            <abbr class="btn btn-lg " style="background-color:gray;">
+            <span class="glyphicon glyphicon-heart btn-like"data-image-id="@Model.Id"></span></abbr>
+        </h6>
+    </a>
+</div> 
+@section scripts{
+    <script src="~/Scripts/ViewSingle.js"></script>}
